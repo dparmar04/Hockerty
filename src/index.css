@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'haptik';
+  src: url('/fonts/gt-haptik-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  font-family: haptik,Arial, Helvetica, sans-serif;
+}
