@@ -9,7 +9,7 @@ const Hero = () => {
       }}
     >
       <div className="absolute bottom-10 left-10 z-10 text-white">
-        <h1 className="text-7xl font-semibold leading-tight mb-3">
+        <h1 className="text-7xl font-medium leading-tight mb-3">
           Dress the real you
         </h1>
         <p className="text-xl font-medium">
