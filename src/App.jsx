@@ -1,6 +1,7 @@
 import Designer from "./components/Designer"
 import FeaturedIn from "./components/FeaturedIn"
 import Features from "./components/Features"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import OutfitIdeas from "./components/OutfitIdeas"
@@ -22,6 +23,7 @@ function App() {
       <PerfectFit />
       <FeaturedIn />
       <Reviews />
+      <Footer />
     </div>
   )
 }
