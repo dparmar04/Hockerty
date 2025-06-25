@@ -51,7 +51,7 @@ const OutfitIdeas = () => {
             Get inspired by our community. Real customers like you styling great outfits based on Hockerty garments
           </p>
         </div>
-        <button className="bg-white text-black font-medium py-2 px-5 rounded-full whitespace-nowrap">
+        <button className="bg-white text-black font-medium py-2 px-5 rounded-full whitespace-nowrap hover:bg-[#1c2221] hover:text-white hover:border hover:border-white transition-all duration-300 cursor-pointer">
           Check them all
         </button>
       </div>
