@@ -60,10 +60,12 @@ const Navbar = () => {
           <button className="text-inherit">
             <FiMessageCircle className="size-5" />
           </button>
-
+          <button className="text-inherit">
+            <PiBagLight className="size-5" />
+          </button>
 
           {/* Desktop Only: Global & Login */}
-          <div className="hidden md:flex items-center space-x-4 text-sm">
+          <div className="hidden lg:flex items-center space-x-4 text-sm">
             <div className="flex items-center gap-1">
               <PiGlobeLight className="size-5" /> Global
             </div>
@@ -71,9 +73,7 @@ const Navbar = () => {
               <PiUserCircleLight className="size-5" /> Login
             </div>
 
-            <button className="text-inherit">
-              <PiBagLight className="size-5" />
-            </button>
+
           </div>
         </div>
       </div>
