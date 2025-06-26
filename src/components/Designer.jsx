@@ -4,7 +4,7 @@ import ContentWithButton from './ContentWithButton'
 
 function Designer() {
   return (
-    <div className='min-h-screen flex flex-col lg:flex-row justify-around items-center px-6 py-12 bg-[#F5F4EF]'>
+    <div className='min-h-screen flex flex-col gap-10 lg:flex-row justify-around items-center px-6 py-12 bg-[#F5F4EF]'>
       <ContentWithButton
         title={"High-tech tailoring for every body"}
         subtitle={"When your clothes are made with care, you can feel it. Before our tailors handcraft your piece, our algorithm uses a decade’s worth of sizing data to make sure it fits you right. Hard to believe, easy to prove."}

@@ -89,17 +89,28 @@ const OutfitIdeas = () => {
             swiper.params.navigation.nextEl = nextRef.current;
           }}
           speed={800}
-          slidesPerGroup={4}
           breakpoints={{
-            640: { slidesPerView: 2.2 },
-            768: { slidesPerView: 3.2 },
-            1024: { slidesPerView: 4.2 },
-            1280: { slidesPerView: 5.2 },
+            640: {
+              slidesPerView: 2.2,
+              slidesPerGroup: 1,
+            },
+            768: {
+              slidesPerView: 3.2,
+              slidesPerGroup: 2
+            },
+            1024: {
+              slidesPerView: 4.2,
+              slidesPerGroup: 4
+            },
+            1280: {
+              slidesPerView: 5.2,
+              slidesPerGroup: 4
+            },
           }}
         >
           {outfits.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="relative w-[full] h-[350px] overflow-hidden group">
+              <div className="relative w-[full] lg:h-[350px] overflow-hidden group">
                 {/* Image */}
                 <img
                   src={item.image}

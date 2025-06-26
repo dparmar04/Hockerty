@@ -74,12 +74,23 @@ const Carousel = () => {
         spaceBetween={20}
         speed={800}
         slidesPerView={1.5}
-        slidesPerGroup={4}
         breakpoints={{
-          640: { slidesPerView: 2.1 },
-          768: { slidesPerView: 3.1 },
-          1024: { slidesPerView: 4.1 },
-          1280: { slidesPerView: 5.1 },
+          640: {
+            slidesPerView: 2.1,
+            slidesPerGroup: 1,
+          },
+          768: {
+            slidesPerView: 3.1,
+            slidesPerGroup: 2,
+          },
+          1024: {
+            slidesPerView: 4.1,
+            slidesPerGroup: 4
+          },
+          1280: {
+            slidesPerView: 5.1,
+            slidesPerGroup: 4
+          },
         }}
       >
         {data.map((item, index) => (
@@ -92,7 +103,7 @@ const Carousel = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </div >
   );
 };
 

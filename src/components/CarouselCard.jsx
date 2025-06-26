@@ -9,7 +9,7 @@ const CarouselCard = ({ image, hoverImage, title }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative w-full h-[400px] bg-gray-100 overflow-hidden rounded">
+      <div className="relative w-full lg:h-[400px] h-[500px] bg-gray-100 overflow-hidden rounded">
         {/* Base image */}
         <img
           src={image}
